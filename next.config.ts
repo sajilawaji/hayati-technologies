@@ -1,14 +1,13 @@
-
 import type { NextConfig } from "next";
-
-const repo = "hayati-technologies";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: `/${repo}`,
+  basePath: "/hayati-technologies",
+  assetPrefix: "/hayati-technologies/",
   images: {
     unoptimized: true,
   },
 };
 
 export default nextConfig;
+

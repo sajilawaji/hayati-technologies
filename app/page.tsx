@@ -24,7 +24,7 @@ export default function Home() {
 {/* Hero image */}
 <div className="relative mx-auto mb-14 w-full max-w-[600px]">
   <img
-    src="/images/cloud lake photos best stone mntn atlanta.jpg"
+  src="/hayati-technologies/images/cloud lake photos best stone mntn atlanta.jpg"
     alt="Clouds reflected over a peaceful forest lake"
     className="h-auto w-full rounded-3xl"
   />
@@ -105,7 +105,7 @@ export default function Home() {
           </h2>
           
 <img
-src="/images/lab set up 4 hayati.jpg"
+src="/hayati-technologies/images/lab set up 4 hayati.jpg"
   alt="Early MJ Vision hardware prototyping workbench with sensors and microcontrollers"
   className="mb-10 h-72 w-full rounded-2xl object-cover md:h-[420px]"
 />
@@ -165,10 +165,14 @@ src="/images/lab set up 4 hayati.jpg"
 
 
 {/* Founder */}
+
+
+{/* Founder */}
 <section id="founder" className="px-8 py-24">
   <div className="mx-auto grid max-w-5xl items-center gap-12 md:grid-cols-2">
+
     <img
-      src="/images/founder image natural habitat.jpg"
+    src="/hayati-technologies/images/founder image natural habitat.jpg"
       alt="Founder of Hayati Technologies outdoors in a wooded setting"
       className="h-[440px] w-full rounded-2xl object-cover"
     />
@@ -201,26 +205,29 @@ src="/images/lab set up 4 hayati.jpg"
         solve meaningful problems while respecting the
         natural systems that sustain us.
       </p>
-    </div>
-    <div className="mt-8 flex flex-wrap gap-4">
-  <a
-    href="/founder"
-    className="rounded-full bg-[#204D36] px-6 py-3 font-medium text-white transition hover:bg-[#4D7953]"
-  >
-    About the Founder →
-  </a>
 
-  <a
-    href="www.linkedin.com/in/connect2sajdah"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="rounded-full border border-[#204D36] px-6 py-3 font-medium transition hover:bg-[#E5EBDD]"
-  >
-    LinkedIn ↗
-  </a>
-</div>
+      <div className="mt-8 flex flex-wrap gap-4">
+        <a
+          href="/hayati-technologies/founder"
+          className="rounded-full bg-[#204D36] px-6 py-3 font-medium text-white transition hover:bg-[#4D7953]"
+        >
+          About the Founder →
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/connect2sajdah"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-full border border-[#204D36] px-6 py-3 font-medium transition hover:bg-[#E5EBDD]"
+        >
+          LinkedIn ↗
+        </a>
+      </div>
+    </div>
+
   </div>
 </section>
+
 
       {/* Footer */}
       <footer className="bg-[#204D36] px-8 py-10 text-center text-sm text-[#F5F3E9]">
